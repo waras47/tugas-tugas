@@ -3,7 +3,10 @@
 // // s
 // import Lifestate from "./Materi/Lifecycle2/Youtube/statedanprops/Lifestate";
 
-import Redux from "./Materi/Redux";
+
+
+import Routing from "./Materi/Routing/Routing";
+// import Redux from "./Materi/Redux";
 
 // import Hooks from "./HOOKS";
 // import Routing from "./Materi/Routing";
@@ -15,7 +18,7 @@ import Redux from "./Materi/Redux";
 function App() {
   return (
     <div className="App">  
-      <Redux/>
+      <Routing/>
     </div>
   );
 }
