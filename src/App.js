@@ -5,7 +5,8 @@
 
 
 
-import Routing from "./Materi/Routing/Routing";
+import Redux from "./Materi/Redux";
+// import Routing from "./Materi/Routing/Routing";
 // import Redux from "./Materi/Redux";
 
 // import Hooks from "./HOOKS";
@@ -18,7 +19,7 @@ import Routing from "./Materi/Routing/Routing";
 function App() {
   return (
     <div className="App">  
-      <Routing/>
+      <Redux/>
     </div>
   );
 }
